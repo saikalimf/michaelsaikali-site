@@ -4,5 +4,17 @@
   },
   "about.qmd": {
     "about.html": "5fd58c0a"
+  },
+  "pksimulator.qmd": {
+    "pksimulator.html": "cd8e46e0"
+  },
+  "learn_to_code.qmd": {
+    "learn_to_code.html": "4dd01164"
+  },
+  "MetaboMiNR.qmd": {
+    "MetaboMiNR.html": "b5ce7876"
+  },
+  "publications.qmd": {
+    "publications.html": "f2ed150c"
   }
 }

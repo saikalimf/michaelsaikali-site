@@ -1,0 +1,14 @@
+---
+title: "MetaboMiNR: An Online Tool to Analyze Label-Free Proteomic Experiments With a Focus on Metabolism and Nuclear Receptors"
+editor: visual
+---
+
+Michael F. Saikali, Carolyn L Cummins
+
+*Endocrinology*, Volume 167, Issue 2, February 2026
+
+<https://doi.org/10.1210/endocr/bqaf190>
+
+## Abstract
+
+Label-free quantification (LFQ) proteomics is growing in popularity and becoming increasingly more accessible to researchers, empowering them to compare proteome-wide changes between different treatment conditions. However, it remains difficult to leverage the full potential of LFQ data when the researcher has limited experience in proteomics and/or bioinformatics due to the complexity of data analysis. Here, we present MetaboMiNR, an easy-to-use web application for the analysis of LFQ data with a focus on metabolism and nuclear receptors (NRs). MetaboMiNR guides users through an intuitive process with clear instructions and minimal user input to conduct statistical analysis and produce publication ready plots. Users may input a MaxQuant-generated output file and perform standard global analysis and data quality control with the click of a button. The application offers 3 additional unique features: 1) Metabolism Miner extracts a user-selected Reactome pathway from the dataset, 2) Nuclear Receptor Miner extracts the target genes of a user-selected NR, and 3) Individual Plotter produces publication-ready bar plots for a selected protein. The utility of this application was demonstrated by analyzing a previously published dataset from mice treated with LDT409, a synthetic peroxisome proliferator–activated receptor agonist. MetaboMiNR can be accessed freely at \[<https://cumminslab.shinyapps.io/MetaboMiNR/>\].

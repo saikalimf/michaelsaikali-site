@@ -1,0 +1,40 @@
+---
+title: "Publications"
+editor: visual
+---
+
+### 2026
+
+Cash SB, **Saikali MF**, Magomedova L, Shawky SA, Molaei F, Shi J, Thibeault PE, Lyons SA, Kwok C, Kiyota T, Angers S, Aman A, Beaudry JL, Cummins CL. Liver specific loss of the transcriptional coregulator ARGLU1 protects against diet-induced obesity in mice through decreased lipid absorption. bioRxiv. 2026 Feb 3. doi: [10.64898/2026.02.03.703579](https://doi.org/10.64898/2026.02.03.703579)
+
+**Saikali MF**, Cummins CL. MetaboMiNR: An Online Tool to Analyze Label-Free Proteomic Experiments With a Focus on Metabolism and Nuclear Receptors. Endocrinology. 2026 Jan 8;167(2):bqaf190. doi: [10.1210/endocr/bqaf190](https://doi.org/10.1210/endocr/bqaf190). PMID: 41466449; PMCID: PMC12796819.
+
+### 2025
+
+Selvaraj R, Lian J, Watts R, Nelson R, **Saikali MF**, Cummins CL, Lehner R. CES1 Increases Hepatic Triacylglycerol Synthesis Through Activation of PPARγ, LXR and SREBP1c. Cells. 2025 Oct 3;14(19):1548. doi: [10.3390/cells14191548](https://doi.org/10.3390/cells14191548). PMID: 41090776; PMCID: PMC12524082.
+
+### 2024
+
+Sahin C, Melanson JR, Le Billan F, Magomedova L, Ferreira TAM, Oliveira AS, Pollock-Tahari E, **Saikali MF**, Cash SB, Woo M, Romeiro LAS, Cummins CL. A novel fatty acid mimetic with pan-PPAR partial agonist activity inhibits diet-induced obesity and metabolic dysfunction-associated steatotic liver disease. Mol Metab. 2024 Jul;85:101958. doi: [10.1016/j.molmet.2024.101958](https://doi.org/10.1016/j.molmet.2024.101958). Epub 2024 May 17. PMID: 38763495; PMCID: PMC11170206.
+
+### 2023
+
+Arif W, Mathur B, **Saikali MF**, Chembazhi UV, Toohill K, Song YJ, Hao Q, Karimi S, Blue SM, Yee BA, Van Nostrand EL, Bangru S, Guzman G, Yeo GW, Prasanth KV, Anakk S, Cummins CL, Kalsotra A. Splicing factor SRSF1 deficiency in the liver triggers NASH-like pathology and cell death. Nat Commun. 2023 Feb 9;14(1):551. doi: [10.1038/s41467-023-35932-3](https://doi.org/10.1038/s41467-023-35932-3). PMID: 36759613; PMCID: PMC9911759.
+
+### 2022
+
+Gathercole LL, Nikolaou N, Harris SE, Arvaniti A, Poolman TM, Hazlehurst JM, Kratschmar DV, Todorčević M, Moolla A, Dempster N, Pink RC, **Saikali MF**, Bentley L, Penning TM, Ohlsson C, Cummins CL, Poutanen M, Odermatt A, Cox RD, Tomlinson JW. AKR1D1 knockout mice develop a sex-dependent metabolic phenotype. J Endocrinol. 2022 Apr 13;253(3):97-113. doi: [10.1530/JOE-21-0280](https://doi.org/10.1530/JOE-21-0280). PMID: 35318963; PMCID: PMC9086936.
+
+Dotan I, Yang J, Ikeda J, Roth Z, Pollock-Tahiri E, Desai H, Sivasubramaniyam T, Rehal S, Rapps J, Li YZ, Le H, Farber G, Alchami E, Xiao C, Karim S, Gronda M, **Saikali MF**, Tirosh A, Wagner KU, Genest J, Schimmer AD, Gupta V, Minden MD, Cummins CL, Lewis GF, Robbins C, Jongstra-Bilen J, Cybulsky M, Woo M. Macrophage Jak2 deficiency accelerates atherosclerosis through defects in cholesterol efflux. Commun Biol. 2022 Feb 15;5(1):132. doi: [10.1038/s42003-022-03078-5](https://doi.org/10.1038/s42003-022-03078-5). PMID: 35169231; PMCID: PMC8847578.
+
+### 2021
+
+Rousseau RK, Szadkowski L, Kovacs CM, **Saikali MF**, Nadeem R, Malazogu F, Huibner S, Cummins CL, Kaul R, Walmsley SL. Activation and gut-homing of peripheral T cells in HIV immunologic non-responders despite long term viral suppression. PLoS One. 2021 Jul 28;16(7):e0254149. doi: [10.1371/journal.pone.0254149](https://doi.org/10.1371/journal.pone.0254149). PMID: 34320023; PMCID: PMC8318285.
+
+Rasheed A, Shawky SA, Tsai R, Jung RG, Simard T, **Saikali MF**, Hibbert B, Rayner KJ, Cummins CL. The secretome of liver X receptor agonist-treated early outgrowth cells decreases atherosclerosis in Ldlr-/- mice. Stem Cells Transl Med. 2021 Mar;10(3):479-491. doi: [10.1002/sctm.19-0390](https://doi.org/10.1002/sctm.19-0390). Epub 2020 Nov 24. PMID: 33231376; PMCID: PMC7900590.
+
+### 2019
+
+Omeragic A, **Saikali MF**, Currier S, Volsky DJ, Cummins CL, Bendayan R. Selective peroxisome proliferator-activated receptor-gamma modulator, INT131 exhibits anti-inflammatory effects in an EcoHIV mouse model. FASEB J. 2020 Feb;34(2):1996-2010. doi: [10.1096/fj.201901874R](https://doi.org/10.1096/fj.201901874R). Epub 2019 Dec 28. PMID: 31907999.
+
+Magomedova L, Tiefenbach J, Zilberman E, Le Billan F, Voisin V, **Saikali M**, Boivin V, Robitaille M, Gueroussov S, Irimia M, Ray D, Patel R, Xu C, Jeyasuria P, Bader GD, Hughes TR, Morris QD, Scott MS, Krause H, Angers S, Blencowe BJ, Cummins CL. ARGLU1 is a transcriptional coactivator and splicing regulator important for stress hormone signaling and development. Nucleic Acids Res. 2019 Apr 8;47(6):2856-2870. doi: [10.1093/nar/gkz010](https://doi.org/10.1093/nar/gkz010). PMID: 30698747; PMCID: PMC6451108.

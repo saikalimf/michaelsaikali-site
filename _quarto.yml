@@ -3,9 +3,20 @@ project:
   output-dir: docs
 
 website:
-  title: "Michael Saikali"
+  title: "Michael Saikali, PhD"
+  navbar:
+    left:
+     - href: index.qmd
+       text: Home
+     # - href: learn_to_code.qmd
+     #   text: Learn to code
+     # - href: pksimulator.qmd
+     #   text: Pharmacokinetics
+     - href: MetaboMiNR.qmd
+       text: MetaboMiNR
+     - publications.qmd
 
 format:
   html:
-    theme: lux
+    theme: sandstone
     toc: false

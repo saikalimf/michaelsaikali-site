@@ -35,6 +35,41 @@
     "text": "Ontario Institute for Cancer Research | Postdoctoral Fellow, Drug Discovery | April 2025 - present\nLeslie Dan Faculty of Pharmacy, University of Toronto | Assistant Professor, Teaching Stream | July 2025 - present"
   },
   {
+    "objectID": "pharmacokinetics/index.html",
+    "href": "pharmacokinetics/index.html",
+    "title": "Learn Pharmacokinetics",
+    "section": "",
+    "text": "Welcome to Learn Pharmacokinetics, an interactive online guide for learning the basic principals of pharmacokinetics."
+  },
+  {
+    "objectID": "pharmacokinetics/index.html#about-this-book",
+    "href": "pharmacokinetics/index.html#about-this-book",
+    "title": "Learn Pharmacokinetics",
+    "section": "",
+    "text": "Welcome to Learn Pharmacokinetics, an interactive online guide for learning the basic principals of pharmacokinetics."
+  },
+  {
+    "objectID": "pharmacokinetics/index.html#chapters",
+    "href": "pharmacokinetics/index.html#chapters",
+    "title": "Learn Pharmacokinetics",
+    "section": "Chapters",
+    "text": "Chapters\n\nFoundations\n\nIntroduction to Mathematical Modelling"
+  },
+  {
+    "objectID": "pharmacokinetics/chapter1_modelling.html",
+    "href": "pharmacokinetics/chapter1_modelling.html",
+    "title": "Chapter 1: Introduction to mathematical modelling",
+    "section": "",
+    "text": "We are going to start our journey with a short discussion on empirical data vs. theoretical data. Empirical data is a measured truth. For example, your final grade in pharmacokinetics is an empirical measurement. Your grade in pharmacokinetics can depend on several factors; one of them could be how many chapters of this book you have read. If we were to poll 10 students on how many chapters of this book they have read and compared that to their final grade, we may get a plot that looks something like this:\n\n\n\n\n\n\n\n\n\nThis plot suggests that there may be a relationship between how many chapters you read and how well you do in the course. The points on this graph represent empirical data. If I want to predict someone’s grade if they read only 5 chapters, I can’t do that from the empirical data because no one read only 5 chapters. I would need to look at the trend in the plot and guess based on the information we have.\nOne strategy we could try is drawing a line through the data points and filling in the missing gaps. Use the sliders below and play around with the input until you feel like the line you’ve drawn fits the data well.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 650\n\nlibrary(shiny)\n\npoints_df &lt;- data.frame(\n  chapters = c(1, 3, 6,7,2),\n  grade = c(25,50,75,98,30 )\n)\n\nui &lt;- fluidPage(\n  sliderInput(\"intercept\", \"Intercept\", min = -2, max = 5, value = 0, step = 0.1),\n  sliderInput(\"slope\", \"Slope\", min = -2, max = 50, value = 1, step = 0.5),\n  plotOutput(\"model_plot\", height = \"400px\")\n)\n\nserver &lt;- function(input, output, session) {\n  output$model_plot &lt;- renderPlot({\n    plot(\n      points_df$chapters,\n      points_df$grade,\n      xlim = c(0, 10),\n      ylim = c(0, 100),\n      pch = 19,\n      cex = 1,\n      col = \"#117A8B\",\n      xlab = \"Chapters Read\",\n      ylab = \"Final Grade (%)\"\n    )\n\n    abline(\n      a = input$intercept,\n      b = input$slope,\n      col = \"#C2410C\",\n      lwd = 3\n    )\n  })\n}\n\nshinyApp(ui, server)"
+  },
+  {
+    "objectID": "pharmacokinetics/chapter1_modelling.html#what-is-mathematical-modelling",
+    "href": "pharmacokinetics/chapter1_modelling.html#what-is-mathematical-modelling",
+    "title": "Chapter 1: Introduction to mathematical modelling",
+    "section": "",
+    "text": "We are going to start our journey with a short discussion on empirical data vs. theoretical data. Empirical data is a measured truth. For example, your final grade in pharmacokinetics is an empirical measurement. Your grade in pharmacokinetics can depend on several factors; one of them could be how many chapters of this book you have read. If we were to poll 10 students on how many chapters of this book they have read and compared that to their final grade, we may get a plot that looks something like this:\n\n\n\n\n\n\n\n\n\nThis plot suggests that there may be a relationship between how many chapters you read and how well you do in the course. The points on this graph represent empirical data. If I want to predict someone’s grade if they read only 5 chapters, I can’t do that from the empirical data because no one read only 5 chapters. I would need to look at the trend in the plot and guess based on the information we have.\nOne strategy we could try is drawing a line through the data points and filling in the missing gaps. Use the sliders below and play around with the input until you feel like the line you’ve drawn fits the data well.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 650\n\nlibrary(shiny)\n\npoints_df &lt;- data.frame(\n  chapters = c(1, 3, 6,7,2),\n  grade = c(25,50,75,98,30 )\n)\n\nui &lt;- fluidPage(\n  sliderInput(\"intercept\", \"Intercept\", min = -2, max = 5, value = 0, step = 0.1),\n  sliderInput(\"slope\", \"Slope\", min = -2, max = 50, value = 1, step = 0.5),\n  plotOutput(\"model_plot\", height = \"400px\")\n)\n\nserver &lt;- function(input, output, session) {\n  output$model_plot &lt;- renderPlot({\n    plot(\n      points_df$chapters,\n      points_df$grade,\n      xlim = c(0, 10),\n      ylim = c(0, 100),\n      pch = 19,\n      cex = 1,\n      col = \"#117A8B\",\n      xlab = \"Chapters Read\",\n      ylab = \"Final Grade (%)\"\n    )\n\n    abline(\n      a = input$intercept,\n      b = input$slope,\n      col = \"#C2410C\",\n      lwd = 3\n    )\n  })\n}\n\nshinyApp(ui, server)"
+  },
+  {
     "objectID": "pksimulator.html",
     "href": "pksimulator.html",
     "title": "Pharmacokinetics Simulator",

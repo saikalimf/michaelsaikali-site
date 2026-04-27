@@ -10,8 +10,8 @@ website:
        text: Home
      # - href: learn_to_code.qmd
      #   text: Learn to code
-     # - href: pksimulator.qmd
-     #   text: Pharmacokinetics
+     - href: pharmacokinetics/index.qmd
+       text: Pharmacokinetics
      - href: MetaboMiNR.qmd
        text: MetaboMiNR
      - publications.qmd

@@ -1,0 +1,82 @@
+---
+title: "Chapter 1: Introduction to mathematical modelling"
+engine: knitr
+format:
+  html:
+    toc: true
+    toc-depth: 5
+    embed-resources: false
+filters:
+  - shinylive
+---
+
+## What is mathematical modelling?
+
+We are going to start our journey with a short discussion on empirical data vs. theoretical data. **Empirical data** is a measured truth. For example, your final grade in pharmacokinetics is an empirical measurement. Your grade in pharmacokinetics can depend on several factors; one of them could be how many chapters of this book you have read. If we were to poll 10 students on how many chapters of this book they have read and compared that to their final grade, we may get a plot that looks something like this:
+
+```{r}
+#| echo: false
+points_df <- data.frame(
+  chapters = c(1, 3, 6,7,2),
+  grade = c(25,50,75,98,30 )
+)
+
+    plot(
+      points_df$chapters,
+      points_df$grade,
+      xlim = c(0, 10),
+      ylim = c(0, 100),
+      pch = 19,
+      cex = 1,
+      col = "#117A8B",
+      xlab = "Chapters Read",
+      ylab = "Final Grade (%)"
+    )
+```
+
+This plot suggests that there may be a relationship between how many chapters you read and how well you do in the course. The points on this graph represent empirical data. If I want to predict someone's grade if they read only 5 chapters, I can't do that from the empirical data because no one read only 5 chapters. I would need to look at the trend in the plot and guess based on the information we have.
+
+One strategy we could try is drawing a line through the data points and filling in the missing gaps. Use the sliders below and play around with the input until you feel like the line you've drawn fits the data well.
+
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 650
+
+library(shiny)
+
+points_df <- data.frame(
+  chapters = c(1, 3, 6,7,2),
+  grade = c(25,50,75,98,30 )
+)
+
+ui <- fluidPage(
+  sliderInput("intercept", "Intercept", min = -2, max = 5, value = 0, step = 0.1),
+  sliderInput("slope", "Slope", min = -2, max = 50, value = 1, step = 0.5),
+  plotOutput("model_plot", height = "400px")
+)
+
+server <- function(input, output, session) {
+  output$model_plot <- renderPlot({
+    plot(
+      points_df$chapters,
+      points_df$grade,
+      xlim = c(0, 10),
+      ylim = c(0, 100),
+      pch = 19,
+      cex = 1,
+      col = "#117A8B",
+      xlab = "Chapters Read",
+      ylab = "Final Grade (%)"
+    )
+
+    abline(
+      a = input$intercept,
+      b = input$slope,
+      col = "#C2410C",
+      lwd = 3
+    )
+  })
+}
+
+shinyApp(ui, server)
+```

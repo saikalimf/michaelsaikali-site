@@ -1,0 +1,14 @@
+---
+title: "Learn Pharmacokinetics"
+editor: visual
+---
+
+## About this book
+
+Welcome to Learn Pharmacokinetics, an interactive online guide for learning the basic principals of pharmacokinetics.
+
+## Chapters
+
+### Foundations
+
+1. [Introduction to Mathematical Modelling](chapter1_modelling.qmd)

@@ -16,5 +16,11 @@
   },
   "publications.qmd": {
     "publications.html": "f2ed150c"
+  },
+  "pharmacokinetics/index.qmd": {
+    "index.html": "98edfadb"
+  },
+  "pharmacokinetics/chapter1_modelling.qmd": {
+    "chapter1_modelling.html": "9ae6e072"
   }
 }
